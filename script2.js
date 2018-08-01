@@ -156,7 +156,7 @@ function tdclick(i, j){
 		RemoveMoves (CellLoc);
 		checkStatus();
 		if (gamestate == 0){
-			setTimeout(function(){ BotTurn(); }, 250);
+			setTimeout(function(){ BotTurn(); }, 150);
 		}
 	}
 }
